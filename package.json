@@ -1,0 +1,19 @@
+{
+  "name": "luna-doctor-finder",
+  "version": "1.0.0",
+  "description": "LUNA: Designing a Doctor Recommendation System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolocansana/luna-doctor-finder.git"
+  },
+  "author": "Three Musketeers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jolocansana/luna-doctor-finder/issues"
+  },
+  "homepage": "https://github.com/jolocansana/luna-doctor-finder#readme"
+}
