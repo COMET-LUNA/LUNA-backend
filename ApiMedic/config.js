@@ -27,7 +27,7 @@ class Config {
   }
 
   constructor() {
-    this.token = Token.token_str
+    this.token = Token.getToken()
     this.language = 'en-gb'
     this.format = 'json'
   }

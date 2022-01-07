@@ -1,902 +1,1102 @@
 [
   {
     "sex": "Male",
-    "name": "Giovanni Bocanegra",
-    "specialization": "Cardiology",
-    "price_range": "100-500",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Doctors Hospital",
-    "med_school": "UERM"
-  },
-  {
-    "sex": "Male",
-    "name": "William Jenkins",
-    "specialization": "Internal Medicine",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "FEU"
-  },
-  {
-    "sex": "Female",
-    "name": "Patricia Rothe",
+    "name": "James Fairweather",
     "specialization": "Gastroenterology",
-    "price_range": "501-1000",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "UP"
-  },
-  {
-    "sex": "Female",
-    "name": "Brandy Morales",
-    "specialization": "Gastroenterology",
-    "price_range": "100-500",
-    "clinic_address": "Manila City",
-    "clinic_location": "Philippine General Hospital",
-    "med_school": "UP"
-  },
-  {
-    "sex": "Male",
-    "name": "James Owens",
-    "specialization": "Gastroenterology",
-    "price_range": "501-1000",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Female",
-    "name": "Linda Strain",
-    "specialization": "Internal Medicine",
-    "price_range": "501-1000",
-    "clinic_address": "Manila City",
-    "clinic_location": "Philippine General Hospital",
-    "med_school": "Davao Doctor's College"
-  },
-  {
-    "sex": "Male",
-    "name": "Steven Hill",
-    "specialization": "Internal Medicine",
-    "price_range": "1001-1500",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Doctors Hospital",
-    "med_school": "UERM"
-  },
-  {
-    "sex": "Female",
-    "name": "Pauline Matthew",
-    "specialization": "Gastroenterology",
-    "price_range": "1500+",
-    "clinic_address": "Davao City",
-    "clinic_location": "Southern Philippines Medical Center",
-    "med_school": "Davao Doctor's College"
-  },
-  {
-    "sex": "Female",
-    "name": "Faye Dixon",
-    "specialization": "Cardiology",
     "price_range": "1500+",
     "clinic_address": "Davao City",
     "clinic_location": "Davao Doctors Hospital",
-    "med_school": "FEU"
+    "med_school": "St.Luke's",
+    "birthyear": 1983,
+    "startyear": 2009
   },
   {
     "sex": "Male",
-    "name": "Jeffrey Long",
-    "specialization": "Gastroenterology",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "FEU"
-  },
-  {
-    "sex": "Female",
-    "name": "Kelly Young",
-    "specialization": "Gastroenterology",
-    "price_range": "1001-1500",
-    "clinic_address": "Davao City",
-    "clinic_location": "Davao Doctors Hospital",
-    "med_school": "UERM"
-  },
-  {
-    "sex": "Male",
-    "name": "James Felmet",
-    "specialization": "Gastroenterology",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Male",
-    "name": "Dwight Wood",
+    "name": "Nathaniel Collins",
     "specialization": "Cardiology",
-    "price_range": "1500+",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Male",
-    "name": "Fernando Winn",
-    "specialization": "Cardiology",
-    "price_range": "501-1000",
+    "price_range": "1001-1500",
     "clinic_address": "Davao City",
     "clinic_location": "Southern Philippines Medical Center",
-    "med_school": "UST"
+    "med_school": "ADMU",
+    "birthyear": 1991,
+    "startyear": 2018
   },
   {
     "sex": "Female",
-    "name": "Delia Smith",
+    "name": "Anna Gaona",
     "specialization": "Gastroenterology",
-    "price_range": "1500+",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Doctors Hospital",
-    "med_school": "UERM"
-  },
-  {
-    "sex": "Male",
-    "name": "Walter Albee",
-    "specialization": "Gastroenterology",
-    "price_range": "1500+",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "UST"
-  },
-  {
-    "sex": "Male",
-    "name": "Jimmy Vargas",
-    "specialization": "Cardiology",
-    "price_range": "501-1000",
-    "clinic_address": "Davao City",
-    "clinic_location": "Davao Doctors Hospital",
-    "med_school": "Davao Doctor's College"
-  },
-  {
-    "sex": "Male",
-    "name": "Ryan Segal",
-    "specialization": "Gastroenterology",
-    "price_range": "501-1000",
-    "clinic_address": "Davao City",
-    "clinic_location": "Davao Doctors Hospital",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Female",
-    "name": "Bonnie Diaz",
-    "specialization": "Internal Medicine",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "FEU"
-  },
-  {
-    "sex": "Male",
-    "name": "Woodrow Garelik",
-    "specialization": "Internal Medicine",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Female",
-    "name": "Bernadette Drewes",
-    "specialization": "Gastroenterology",
-    "price_range": "100-500",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Doctors Hospital",
-    "med_school": "FEU"
-  },
-  {
-    "sex": "Male",
-    "name": "Marquis Mays",
-    "specialization": "Gastroenterology",
-    "price_range": "501-1000",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "St.Luke's"
-  },
-  {
-    "sex": "Male",
-    "name": "Charles Gonez",
-    "specialization": "Internal Medicine",
-    "price_range": "1001-1500",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Female",
-    "name": "Olga Parks",
-    "specialization": "Gastroenterology",
-    "price_range": "501-1000",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Doctors Hospital",
-    "med_school": "UERM"
-  },
-  {
-    "sex": "Female",
-    "name": "Elizabeth Linville",
-    "specialization": "Gastroenterology",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Male",
-    "name": "David Totman",
-    "specialization": "Cardiology",
-    "price_range": "501-1000",
-    "clinic_address": "Davao City",
-    "clinic_location": "Southern Philippines Medical Center",
-    "med_school": "UERM"
-  },
-  {
-    "sex": "Male",
-    "name": "Santiago Moran",
-    "specialization": "Gastroenterology",
-    "price_range": "100-500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Male",
-    "name": "Pierre Young",
-    "specialization": "Internal Medicine",
-    "price_range": "501-1000",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "FEU"
-  },
-  {
-    "sex": "Female",
-    "name": "Leticia Odowd",
-    "specialization": "Gastroenterology",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Female",
-    "name": "Michael Wooten",
-    "specialization": "Gastroenterology",
-    "price_range": "1500+",
-    "clinic_address": "Davao City",
-    "clinic_location": "Southern Philippines Medical Center",
-    "med_school": "Davao Doctor's College"
-  },
-  {
-    "sex": "Male",
-    "name": "James Odell",
-    "specialization": "Cardiology",
     "price_range": "100-500",
     "clinic_address": "Quezon City",
     "clinic_location": "St. Luke's Medical Center",
-    "med_school": "St.Luke's"
-  },
-  {
-    "sex": "Male",
-    "name": "Charles Wood",
-    "specialization": "Internal Medicine",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "Davao Doctor's College"
-  },
-  {
-    "sex": "Male",
-    "name": "Jerry Riedl",
-    "specialization": "Internal Medicine",
-    "price_range": "501-1000",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "UERM"
-  },
-  {
-    "sex": "Male",
-    "name": "Raymond Fults",
-    "specialization": "Cardiology",
-    "price_range": "1500+",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Doctors Hospital",
-    "med_school": "ADZU"
+    "med_school": "FEU",
+    "birthyear": 1950,
+    "startyear": 1977
   },
   {
     "sex": "Female",
-    "name": "Tenisha Peale",
-    "specialization": "Internal Medicine",
-    "price_range": "501-1000",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Female",
-    "name": "Vanessa Byrne",
-    "specialization": "Cardiology",
-    "price_range": "501-1000",
-    "clinic_address": "Davao City",
-    "clinic_location": "Southern Philippines Medical Center",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Female",
-    "name": "Dorris Thomas",
-    "specialization": "Gastroenterology",
-    "price_range": "100-500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Female",
-    "name": "Ferne Hickman",
-    "specialization": "Internal Medicine",
-    "price_range": "100-500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "Davao Doctor's College"
-  },
-  {
-    "sex": "Male",
-    "name": "Arturo Ashley",
-    "specialization": "Cardiology",
-    "price_range": "1001-1500",
-    "clinic_address": "Davao City",
-    "clinic_location": "Davao Doctors Hospital",
-    "med_school": "UP"
-  },
-  {
-    "sex": "Female",
-    "name": "Denise Brazzle",
-    "specialization": "Cardiology",
-    "price_range": "100-500",
-    "clinic_address": "Manila City",
-    "clinic_location": "Philippine General Hospital",
-    "med_school": "UP"
-  },
-  {
-    "sex": "Male",
-    "name": "Stephen Aplin",
-    "specialization": "Gastroenterology",
-    "price_range": "1500+",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "Davao Doctor's College"
-  },
-  {
-    "sex": "Female",
-    "name": "Mary Mayes",
-    "specialization": "Internal Medicine",
-    "price_range": "1500+",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "FEU"
-  },
-  {
-    "sex": "Male",
-    "name": "Tommie Dubicki",
-    "specialization": "Gastroenterology",
-    "price_range": "501-1000",
-    "clinic_address": "Manila City",
-    "clinic_location": "Philippine General Hospital",
-    "med_school": "UP"
-  },
-  {
-    "sex": "Male",
-    "name": "Raymon Clemens",
-    "specialization": "Internal Medicine",
-    "price_range": "1500+",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "St.Luke's"
-  },
-  {
-    "sex": "Female",
-    "name": "Ruth Ovando",
-    "specialization": "Gastroenterology",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "UP"
-  },
-  {
-    "sex": "Male",
-    "name": "Andrew Press",
-    "specialization": "Cardiology",
-    "price_range": "100-500",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Doctors Hospital",
-    "med_school": "FEU"
-  },
-  {
-    "sex": "Male",
-    "name": "Jerry Smith",
-    "specialization": "Internal Medicine",
-    "price_range": "1001-1500",
-    "clinic_address": "Davao City",
-    "clinic_location": "Davao Doctors Hospital",
-    "med_school": "UST"
-  },
-  {
-    "sex": "Male",
-    "name": "Charles Juel",
+    "name": "Susan Dunn",
     "specialization": "Cardiology",
     "price_range": "1001-1500",
     "clinic_address": "Manila City",
     "clinic_location": "Manila Doctors Hospital",
-    "med_school": "FEU"
+    "med_school": "FEU",
+    "birthyear": 1984,
+    "startyear": 2011
   },
   {
-    "sex": "Female",
-    "name": "Linda Costa",
+    "sex": "Male",
+    "name": "Robby Flory",
+    "specialization": "Gastroenterology",
+    "price_range": "501-1000",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "Davao Doctor's College",
+    "birthyear": 1984,
+    "startyear": 2011
+  },
+  {
+    "sex": "Male",
+    "name": "Stephen Laughlin",
     "specialization": "Cardiology",
     "price_range": "1500+",
-    "clinic_address": "Davao City",
-    "clinic_location": "Southern Philippines Medical Center",
-    "med_school": "Davao Doctor's College"
-  },
-  {
-    "sex": "Male",
-    "name": "David Germann",
-    "specialization": "Gastroenterology",
-    "price_range": "501-1000",
-    "clinic_address": "Manila City",
-    "clinic_location": "Philippine General Hospital",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Female",
-    "name": "Becky Holt",
-    "specialization": "Gastroenterology",
-    "price_range": "100-500",
-    "clinic_address": "Davao City",
-    "clinic_location": "Southern Philippines Medical Center",
-    "med_school": "UST"
-  },
-  {
-    "sex": "Male",
-    "name": "Ernest Morton",
-    "specialization": "Gastroenterology",
-    "price_range": "100-500",
-    "clinic_address": "Davao City",
-    "clinic_location": "Davao Doctors Hospital",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Female",
-    "name": "Leslie Gallagher",
-    "specialization": "Cardiology",
-    "price_range": "100-500",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "UP"
-  },
-  {
-    "sex": "Male",
-    "name": "Robert Cosper",
-    "specialization": "Gastroenterology",
-    "price_range": "1001-1500",
-    "clinic_address": "Davao City",
-    "clinic_location": "Southern Philippines Medical Center",
-    "med_school": "Davao Doctor's College"
-  },
-  {
-    "sex": "Male",
-    "name": "Lyndon Herzig",
-    "specialization": "Cardiology",
-    "price_range": "501-1000",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Doctors Hospital",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Female",
-    "name": "Tracey Murray",
-    "specialization": "Cardiology",
-    "price_range": "1001-1500",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "UP"
-  },
-  {
-    "sex": "Male",
-    "name": "Blaine Brunner",
-    "specialization": "Internal Medicine",
-    "price_range": "501-1000",
-    "clinic_address": "Davao City",
-    "clinic_location": "Davao Doctors Hospital",
-    "med_school": "UST"
-  },
-  {
-    "sex": "Female",
-    "name": "Andrea Williams",
-    "specialization": "Cardiology",
-    "price_range": "501-1000",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "FEU"
-  },
-  {
-    "sex": "Female",
-    "name": "Carina Worley",
-    "specialization": "Gastroenterology",
-    "price_range": "1500+",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Female",
-    "name": "Kam Sutton",
-    "specialization": "Gastroenterology",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Female",
-    "name": "Sheila Mathis",
-    "specialization": "Gastroenterology",
-    "price_range": "1001-1500",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "UST"
-  },
-  {
-    "sex": "Female",
-    "name": "Lori Lavallee",
-    "specialization": "Gastroenterology",
-    "price_range": "501-1000",
     "clinic_address": "Manila City",
     "clinic_location": "Manila Medical Center",
-    "med_school": "UST"
+    "med_school": "ADZU",
+    "birthyear": 1994,
+    "startyear": 2022
+  },
+  {
+    "sex": "Female",
+    "name": "Barbara Holley",
+    "specialization": "Internal Medicine",
+    "price_range": "100-500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "FEU",
+    "birthyear": 1985,
+    "startyear": 2013
+  },
+  {
+    "sex": "Female",
+    "name": "Anne Duppstadt",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Davao Doctors Hospital",
+    "med_school": "FEU",
+    "birthyear": 1963,
+    "startyear": 1991
   },
   {
     "sex": "Male",
-    "name": "John Garner",
+    "name": "John Beam",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Doctors Hospital",
+    "med_school": "FEU",
+    "birthyear": 1969,
+    "startyear": 1996
+  },
+  {
+    "sex": "Female",
+    "name": "Tiffany Lee",
+    "specialization": "Gastroenterology",
+    "price_range": "1500+",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "West Metro Medical Center",
+    "med_school": "Davao Doctor's College",
+    "birthyear": 1980,
+    "startyear": 2008
+  },
+  {
+    "sex": "Male",
+    "name": "Charles Harnden",
+    "specialization": "Cardiology",
+    "price_range": "100-500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "ADMU",
+    "birthyear": 1982,
+    "startyear": 2008
+  },
+  {
+    "sex": "Male",
+    "name": "Pedro Castrey",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "Zamboanga Peninsula Medical Center",
+    "med_school": "FEU",
+    "birthyear": 1977,
+    "startyear": 2003
+  },
+  {
+    "sex": "Female",
+    "name": "Etha Workman",
     "specialization": "Internal Medicine",
     "price_range": "501-1000",
     "clinic_address": "Manila City",
     "clinic_location": "Manila Medical Center",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Female",
-    "name": "Charlotte Falcon",
-    "specialization": "Cardiology",
-    "price_range": "100-500",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Medical Center",
-    "med_school": "ADZU"
+    "med_school": "UST",
+    "birthyear": 1953,
+    "startyear": 1979
   },
   {
     "sex": "Male",
-    "name": "Ronald Jefferson",
-    "specialization": "Cardiology",
-    "price_range": "501-1000",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "Davao Doctor's College"
-  },
-  {
-    "sex": "Male",
-    "name": "Richard Stamdifer",
+    "name": "Henry Vanakin",
     "specialization": "Gastroenterology",
     "price_range": "501-1000",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "UERM"
-  },
-  {
-    "sex": "Male",
-    "name": "Jason Schwarz",
-    "specialization": "Cardiology",
-    "price_range": "100-500",
     "clinic_address": "Davao City",
     "clinic_location": "Southern Philippines Medical Center",
-    "med_school": "UST"
+    "med_school": "St.Luke's",
+    "birthyear": 1987,
+    "startyear": 2015
   },
   {
     "sex": "Male",
-    "name": "David Abrams",
-    "specialization": "Internal Medicine",
-    "price_range": "100-500",
-    "clinic_address": "Davao City",
-    "clinic_location": "Davao Doctors Hospital",
-    "med_school": "Davao Doctor's College"
-  },
-  {
-    "sex": "Female",
-    "name": "Eula Nichols",
-    "specialization": "Internal Medicine",
-    "price_range": "1500+",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "UST"
-  },
-  {
-    "sex": "Female",
-    "name": "Linda Campbell",
-    "specialization": "Internal Medicine",
-    "price_range": "100-500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Female",
-    "name": "Hattie Snell",
-    "specialization": "Internal Medicine",
-    "price_range": "100-500",
-    "clinic_address": "Davao City",
-    "clinic_location": "Davao Doctors Hospital",
-    "med_school": "UERM"
-  },
-  {
-    "sex": "Female",
-    "name": "Nedra Truong",
-    "specialization": "Gastroenterology",
-    "price_range": "100-500",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "FEU"
-  },
-  {
-    "sex": "Male",
-    "name": "James Janssen",
-    "specialization": "Cardiology",
-    "price_range": "501-1000",
-    "clinic_address": "Manila City",
-    "clinic_location": "Philippine General Hospital",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Female",
-    "name": "Joycelyn Sedotal",
-    "specialization": "Cardiology",
-    "price_range": "1001-1500",
-    "clinic_address": "Davao City",
-    "clinic_location": "Davao Doctors Hospital",
-    "med_school": "UP"
-  },
-  {
-    "sex": "Female",
-    "name": "Sharon Little",
-    "specialization": "Gastroenterology",
-    "price_range": "1001-1500",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Male",
-    "name": "Daniel Beck",
-    "specialization": "Gastroenterology",
-    "price_range": "100-500",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Doctors Hospital",
-    "med_school": "St.Luke's"
-  },
-  {
-    "sex": "Female",
-    "name": "Alice Keene",
-    "specialization": "Cardiology",
-    "price_range": "1001-1500",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Medical Center",
-    "med_school": "UST"
-  },
-  {
-    "sex": "Male",
-    "name": "Gary Young",
-    "specialization": "Internal Medicine",
-    "price_range": "501-1000",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "St.Luke's"
-  },
-  {
-    "sex": "Female",
-    "name": "Patricia Marks",
-    "specialization": "Cardiology",
-    "price_range": "501-1000",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Medical Center",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Female",
-    "name": "Lesa Coles",
-    "specialization": "Gastroenterology",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "FEU"
-  },
-  {
-    "sex": "Male",
-    "name": "Charles Murphy",
-    "specialization": "Internal Medicine",
-    "price_range": "1500+",
-    "clinic_address": "Manila City",
-    "clinic_location": "Philippine General Hospital",
-    "med_school": "ADMU"
-  },
-  {
-    "sex": "Female",
-    "name": "Annabelle Woodard",
-    "specialization": "Cardiology",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "UERM"
-  },
-  {
-    "sex": "Female",
-    "name": "Elizabeth Sesler",
-    "specialization": "Gastroenterology",
-    "price_range": "1500+",
-    "clinic_address": "Manila City",
-    "clinic_location": "Manila Doctors Hospital",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Male",
-    "name": "Derek Searles",
+    "name": "Gerald Toll",
     "specialization": "Cardiology",
     "price_range": "1001-1500",
     "clinic_address": "Manila City",
     "clinic_location": "Manila Doctors Hospital",
-    "med_school": "Davao Doctor's College"
+    "med_school": "UP",
+    "birthyear": 1968,
+    "startyear": 1996
   },
   {
     "sex": "Male",
-    "name": "Clinton Morris",
+    "name": "Kevin Thomas",
+    "specialization": "Internal Medicine",
+    "price_range": "1500+",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "ADZU",
+    "birthyear": 1963,
+    "startyear": 1990
+  },
+  {
+    "sex": "Male",
+    "name": "David Bader",
     "specialization": "Gastroenterology",
     "price_range": "1001-1500",
     "clinic_address": "Quezon City",
     "clinic_location": "St. Luke's Medical Center",
-    "med_school": "UST"
+    "med_school": "ADMU",
+    "birthyear": 1968,
+    "startyear": 1995
+  },
+  {
+    "sex": "Male",
+    "name": "Gary Hall",
+    "specialization": "Internal Medicine",
+    "price_range": "501-1000",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "Zamboanga Peninsula Medical Center",
+    "med_school": "ADMU",
+    "birthyear": 1961,
+    "startyear": 1988
+  },
+  {
+    "sex": "Male",
+    "name": "William Davis",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Davao Doctors Hospital",
+    "med_school": "FEU",
+    "birthyear": 1994,
+    "startyear": 2020
   },
   {
     "sex": "Female",
-    "name": "Jennifer Frasier",
+    "name": "Michelle Johnson",
+    "specialization": "Gastroenterology",
+    "price_range": "1500+",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "St.Luke's",
+    "birthyear": 1962,
+    "startyear": 1988
+  },
+  {
+    "sex": "Male",
+    "name": "Bobby Witt",
+    "specialization": "Gastroenterology",
+    "price_range": "100-500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Davao Doctors Hospital",
+    "med_school": "UST",
+    "birthyear": 1994,
+    "startyear": 2021
+  },
+  {
+    "sex": "Male",
+    "name": "John Wall",
+    "specialization": "Cardiology",
+    "price_range": "1500+",
+    "clinic_address": "Davao City",
+    "clinic_location": "Davao Doctors Hospital",
+    "med_school": "St.Luke's",
+    "birthyear": 1993,
+    "startyear": 2021
+  },
+  {
+    "sex": "Male",
+    "name": "Raymond Brunson",
+    "specialization": "Cardiology",
+    "price_range": "1500+",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "Davao Doctor's College",
+    "birthyear": 1991,
+    "startyear": 2019
+  },
+  {
+    "sex": "Female",
+    "name": "Catherine Balser",
+    "specialization": "Cardiology",
+    "price_range": "1500+",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "Zamboanga Peninsula Medical Center",
+    "med_school": "Davao Doctor's College",
+    "birthyear": 1955,
+    "startyear": 1982
+  },
+  {
+    "sex": "Male",
+    "name": "Edgar Ramsey",
+    "specialization": "Cardiology",
+    "price_range": "1001-1500",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "Zamboanga Peninsula Medical Center",
+    "med_school": "Davao Doctor's College",
+    "birthyear": 1990,
+    "startyear": 2018
+  },
+  {
+    "sex": "Male",
+    "name": "Nicholas Fortune",
+    "specialization": "Cardiology",
+    "price_range": "501-1000",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "UP",
+    "birthyear": 1976,
+    "startyear": 2002
+  },
+  {
+    "sex": "Female",
+    "name": "Donna Koo",
+    "specialization": "Gastroenterology",
+    "price_range": "501-1000",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "FEU",
+    "birthyear": 1978,
+    "startyear": 2006
+  },
+  {
+    "sex": "Male",
+    "name": "Matthew Riel",
+    "specialization": "Internal Medicine",
+    "price_range": "501-1000",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "St.Luke's",
+    "birthyear": 1964,
+    "startyear": 1990
+  },
+  {
+    "sex": "Female",
+    "name": "Joy Longoria",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Davao Doctors Hospital",
+    "med_school": "UERM",
+    "birthyear": 1981,
+    "startyear": 2009
+  },
+  {
+    "sex": "Female",
+    "name": "Hilda Sizemore",
+    "specialization": "Gastroenterology",
+    "price_range": "501-1000",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "UERM",
+    "birthyear": 1989,
+    "startyear": 2017
+  },
+  {
+    "sex": "Male",
+    "name": "William Bullock",
+    "specialization": "Internal Medicine",
+    "price_range": "1500+",
+    "clinic_address": "Davao City",
+    "clinic_location": "Davao Doctors Hospital",
+    "med_school": "UERM",
+    "birthyear": 1969,
+    "startyear": 1995
+  },
+  {
+    "sex": "Male",
+    "name": "Alvin Pomeroy",
+    "specialization": "Gastroenterology",
+    "price_range": "501-1000",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "West Metro Medical Center",
+    "med_school": "UP",
+    "birthyear": 1990,
+    "startyear": 2017
+  },
+  {
+    "sex": "Male",
+    "name": "Brian Batarse",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Philippine General Hospital",
+    "med_school": "UST",
+    "birthyear": 1994,
+    "startyear": 2022
+  },
+  {
+    "sex": "Female",
+    "name": "Goldie Humes",
+    "specialization": "Internal Medicine",
+    "price_range": "1001-1500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "UERM",
+    "birthyear": 1993,
+    "startyear": 2020
+  },
+  {
+    "sex": "Male",
+    "name": "Joseph Martin",
+    "specialization": "Gastroenterology",
+    "price_range": "501-1000",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "ADMU",
+    "birthyear": 1980,
+    "startyear": 2008
+  },
+  {
+    "sex": "Male",
+    "name": "Edward Harris",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Davao Doctors Hospital",
+    "med_school": "FEU",
+    "birthyear": 1975,
+    "startyear": 2001
+  },
+  {
+    "sex": "Male",
+    "name": "Julio Kalar",
+    "specialization": "Gastroenterology",
+    "price_range": "100-500",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "UERM",
+    "birthyear": 1956,
+    "startyear": 1983
+  },
+  {
+    "sex": "Female",
+    "name": "Debbie Montero",
+    "specialization": "Gastroenterology",
+    "price_range": "1500+",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "FEU",
+    "birthyear": 1992,
+    "startyear": 2018
+  },
+  {
+    "sex": "Female",
+    "name": "Dawn Cannon",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "Zamboanga Peninsula Medical Center",
+    "med_school": "ADMU",
+    "birthyear": 1994,
+    "startyear": 2021
+  },
+  {
+    "sex": "Male",
+    "name": "Cedric Shifflett",
+    "specialization": "Gastroenterology",
+    "price_range": "501-1000",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "West Metro Medical Center",
+    "med_school": "FEU",
+    "birthyear": 1964,
+    "startyear": 1992
+  },
+  {
+    "sex": "Male",
+    "name": "Lance Mcdonald",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "ADMU",
+    "birthyear": 1971,
+    "startyear": 1997
+  },
+  {
+    "sex": "Female",
+    "name": "Tiffany Soukup",
+    "specialization": "Internal Medicine",
+    "price_range": "1001-1500",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "Zamboanga Peninsula Medical Center",
+    "med_school": "Davao Doctor's College",
+    "birthyear": 1970,
+    "startyear": 1998
+  },
+  {
+    "sex": "Male",
+    "name": "Wesley Farmer",
+    "specialization": "Internal Medicine",
+    "price_range": "100-500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Davao Doctors Hospital",
+    "med_school": "UP",
+    "birthyear": 1962,
+    "startyear": 1989
+  },
+  {
+    "sex": "Female",
+    "name": "Ruth Jones",
+    "specialization": "Cardiology",
+    "price_range": "1500+",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "Zamboanga Peninsula Medical Center",
+    "med_school": "ADMU",
+    "birthyear": 1978,
+    "startyear": 2005
+  },
+  {
+    "sex": "Male",
+    "name": "Robert Anderson",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "Davao Doctor's College",
+    "birthyear": 1953,
+    "startyear": 1980
+  },
+  {
+    "sex": "Female",
+    "name": "Glenda Jackson",
+    "specialization": "Internal Medicine",
+    "price_range": "100-500",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "FEU",
+    "birthyear": 1954,
+    "startyear": 1982
+  },
+  {
+    "sex": "Female",
+    "name": "Stephanie Whatley",
+    "specialization": "Cardiology",
+    "price_range": "100-500",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "Zamboanga Peninsula Medical Center",
+    "med_school": "ADZU",
+    "birthyear": 1964,
+    "startyear": 1990
+  },
+  {
+    "sex": "Male",
+    "name": "Ronald Trotz",
+    "specialization": "Internal Medicine",
+    "price_range": "1500+",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "UP",
+    "birthyear": 1967,
+    "startyear": 1994
+  },
+  {
+    "sex": "Male",
+    "name": "Jeffrey Smith",
+    "specialization": "Gastroenterology",
+    "price_range": "1500+",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "UP",
+    "birthyear": 1962,
+    "startyear": 1989
+  },
+  {
+    "sex": "Female",
+    "name": "Amy Leventhal",
+    "specialization": "Internal Medicine",
+    "price_range": "1001-1500",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "Zamboanga Peninsula Medical Center",
+    "med_school": "UERM",
+    "birthyear": 1989,
+    "startyear": 2016
+  },
+  {
+    "sex": "Female",
+    "name": "Rosemary Bussey",
+    "specialization": "Gastroenterology",
+    "price_range": "501-1000",
+    "clinic_address": "Manila City",
+    "clinic_location": "Philippine General Hospital",
+    "med_school": "ADZU",
+    "birthyear": 1971,
+    "startyear": 1999
+  },
+  {
+    "sex": "Female",
+    "name": "Marsha Downs",
+    "specialization": "Internal Medicine",
+    "price_range": "1001-1500",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "UST",
+    "birthyear": 1990,
+    "startyear": 2018
+  },
+  {
+    "sex": "Male",
+    "name": "Gregory Martinez",
+    "specialization": "Internal Medicine",
+    "price_range": "100-500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "UP",
+    "birthyear": 1992,
+    "startyear": 2020
+  },
+  {
+    "sex": "Male",
+    "name": "Richard Friesner",
+    "specialization": "Gastroenterology",
+    "price_range": "1500+",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "UST",
+    "birthyear": 1967,
+    "startyear": 1994
+  },
+  {
+    "sex": "Male",
+    "name": "Robert Fowler",
+    "specialization": "Cardiology",
+    "price_range": "1001-1500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "UP",
+    "birthyear": 1988,
+    "startyear": 2014
+  },
+  {
+    "sex": "Male",
+    "name": "David Fierst",
+    "specialization": "Internal Medicine",
+    "price_range": "100-500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "ADMU",
+    "birthyear": 1962,
+    "startyear": 1989
+  },
+  {
+    "sex": "Female",
+    "name": "Delores Nicholson",
+    "specialization": "Internal Medicine",
+    "price_range": "100-500",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "Davao Doctor's College",
+    "birthyear": 1991,
+    "startyear": 2019
+  },
+  {
+    "sex": "Male",
+    "name": "Efrain Norris",
+    "specialization": "Internal Medicine",
+    "price_range": "501-1000",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "UP",
+    "birthyear": 1966,
+    "startyear": 1994
+  },
+  {
+    "sex": "Female",
+    "name": "Kathryn Burris",
+    "specialization": "Internal Medicine",
+    "price_range": "501-1000",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "St.Luke's",
+    "birthyear": 1966,
+    "startyear": 1993
+  },
+  {
+    "sex": "Male",
+    "name": "David Peterson",
+    "specialization": "Gastroenterology",
+    "price_range": "100-500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "UST",
+    "birthyear": 1966,
+    "startyear": 1994
+  },
+  {
+    "sex": "Female",
+    "name": "Monika Murphy",
+    "specialization": "Internal Medicine",
+    "price_range": "1001-1500",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "St.Luke's",
+    "birthyear": 1976,
+    "startyear": 2003
+  },
+  {
+    "sex": "Male",
+    "name": "Frederick Rivera",
+    "specialization": "Internal Medicine",
+    "price_range": "100-500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "Davao Doctor's College",
+    "birthyear": 1962,
+    "startyear": 1989
+  },
+  {
+    "sex": "Female",
+    "name": "Gloria Pennell",
+    "specialization": "Gastroenterology",
+    "price_range": "1500+",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "ADMU",
+    "birthyear": 1955,
+    "startyear": 1981
+  },
+  {
+    "sex": "Female",
+    "name": "Joanna Quiles",
+    "specialization": "Internal Medicine",
+    "price_range": "100-500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Philippine General Hospital",
+    "med_school": "UERM",
+    "birthyear": 1953,
+    "startyear": 1980
+  },
+  {
+    "sex": "Female",
+    "name": "Anne Howes",
+    "specialization": "Internal Medicine",
+    "price_range": "1001-1500",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "UERM",
+    "birthyear": 1954,
+    "startyear": 1980
+  },
+  {
+    "sex": "Male",
+    "name": "Kenneth Rybowiak",
+    "specialization": "Internal Medicine",
+    "price_range": "1001-1500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Davao Doctors Hospital",
+    "med_school": "FEU",
+    "birthyear": 1958,
+    "startyear": 1985
+  },
+  {
+    "sex": "Female",
+    "name": "Laura Seeholzer",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "UP",
+    "birthyear": 1965,
+    "startyear": 1993
+  },
+  {
+    "sex": "Female",
+    "name": "Anjanette Tuinstra",
+    "specialization": "Cardiology",
+    "price_range": "501-1000",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Doctors Hospital",
+    "med_school": "St.Luke's",
+    "birthyear": 1966,
+    "startyear": 1994
+  },
+  {
+    "sex": "Male",
+    "name": "Charles Faiella",
     "specialization": "Internal Medicine",
     "price_range": "501-1000",
     "clinic_address": "Manila City",
     "clinic_location": "Philippine General Hospital",
-    "med_school": "UP"
+    "med_school": "FEU",
+    "birthyear": 1968,
+    "startyear": 1995
   },
   {
     "sex": "Male",
-    "name": "Erwin Weilbacher",
-    "specialization": "Internal Medicine",
-    "price_range": "1500+",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "UERM"
-  },
-  {
-    "sex": "Male",
-    "name": "Chad Betcher",
+    "name": "Earl Virgo",
     "specialization": "Cardiology",
     "price_range": "1500+",
-    "clinic_address": "Davao City",
-    "clinic_location": "Southern Philippines Medical Center",
-    "med_school": "ADMU"
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "St.Luke's",
+    "birthyear": 1958,
+    "startyear": 1985
   },
   {
     "sex": "Female",
-    "name": "Emily Winn",
+    "name": "Linda Harris",
     "specialization": "Internal Medicine",
-    "price_range": "1001-1500",
-    "clinic_address": "Davao City",
-    "clinic_location": "Southern Philippines Medical Center",
-    "med_school": "ADMU"
+    "price_range": "501-1000",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "UP",
+    "birthyear": 1967,
+    "startyear": 1994
   },
   {
     "sex": "Male",
-    "name": "Thomas Thompson",
-    "specialization": "Internal Medicine",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "St.Luke's"
+    "name": "Manuel Clemons",
+    "specialization": "Gastroenterology",
+    "price_range": "1500+",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "ADZU",
+    "birthyear": 1953,
+    "startyear": 1981
   },
   {
     "sex": "Male",
-    "name": "Robert Parks",
-    "specialization": "Cardiology",
+    "name": "Mack Monnier",
+    "specialization": "Gastroenterology",
+    "price_range": "1500+",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "FEU",
+    "birthyear": 1991,
+    "startyear": 2018
+  },
+  {
+    "sex": "Male",
+    "name": "Ramon Paolucci",
+    "specialization": "Gastroenterology",
+    "price_range": "501-1000",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "St.Luke's",
+    "birthyear": 1983,
+    "startyear": 2009
+  },
+  {
+    "sex": "Female",
+    "name": "Pamela Ogden",
+    "specialization": "Internal Medicine",
     "price_range": "501-1000",
     "clinic_address": "Davao City",
     "clinic_location": "Southern Philippines Medical Center",
-    "med_school": "Davao Doctor's College"
+    "med_school": "UP",
+    "birthyear": 1987,
+    "startyear": 2015
+  },
+  {
+    "sex": "Male",
+    "name": "Larry Hudson",
+    "specialization": "Cardiology",
+    "price_range": "501-1000",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "West Metro Medical Center",
+    "med_school": "ADMU",
+    "birthyear": 1994,
+    "startyear": 2021
   },
   {
     "sex": "Female",
-    "name": "Lori Whetzel",
+    "name": "Mary Reiter",
+    "specialization": "Gastroenterology",
+    "price_range": "100-500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Philippine General Hospital",
+    "med_school": "ADMU",
+    "birthyear": 1970,
+    "startyear": 1996
+  },
+  {
+    "sex": "Male",
+    "name": "John Register",
+    "specialization": "Gastroenterology",
+    "price_range": "1500+",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "Zamboanga Peninsula Medical Center",
+    "med_school": "St.Luke's",
+    "birthyear": 1964,
+    "startyear": 1991
+  },
+  {
+    "sex": "Male",
+    "name": "Anibal Ijames",
+    "specialization": "Internal Medicine",
+    "price_range": "1001-1500",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "UERM",
+    "birthyear": 1960,
+    "startyear": 1986
+  },
+  {
+    "sex": "Male",
+    "name": "Jonathan Sadan",
+    "specialization": "Cardiology",
+    "price_range": "1001-1500",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "West Metro Medical Center",
+    "med_school": "St.Luke's",
+    "birthyear": 1970,
+    "startyear": 1998
+  },
+  {
+    "sex": "Male",
+    "name": "William White",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "UP",
+    "birthyear": 1958,
+    "startyear": 1985
+  },
+  {
+    "sex": "Female",
+    "name": "Teresa Williams",
+    "specialization": "Internal Medicine",
+    "price_range": "501-1000",
+    "clinic_address": "Davao City",
+    "clinic_location": "Davao Doctors Hospital",
+    "med_school": "FEU",
+    "birthyear": 1963,
+    "startyear": 1989
+  },
+  {
+    "sex": "Female",
+    "name": "Elsie Mims",
+    "specialization": "Cardiology",
+    "price_range": "1001-1500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Philippine General Hospital",
+    "med_school": "ADZU",
+    "birthyear": 1970,
+    "startyear": 1998
+  },
+  {
+    "sex": "Male",
+    "name": "Terrence Unger",
+    "specialization": "Cardiology",
+    "price_range": "1001-1500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Davao Doctors Hospital",
+    "med_school": "ADZU",
+    "birthyear": 1960,
+    "startyear": 1986
+  },
+  {
+    "sex": "Male",
+    "name": "Glenn Vasquez",
+    "specialization": "Cardiology",
+    "price_range": "100-500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "ADMU",
+    "birthyear": 1959,
+    "startyear": 1985
+  },
+  {
+    "sex": "Female",
+    "name": "Nerissa Harris",
+    "specialization": "Gastroenterology",
+    "price_range": "1500+",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "FEU",
+    "birthyear": 1978,
+    "startyear": 2005
+  },
+  {
+    "sex": "Female",
+    "name": "Jennifer Parkerson",
+    "specialization": "Cardiology",
+    "price_range": "1500+",
+    "clinic_address": "Davao City",
+    "clinic_location": "Davao Doctors Hospital",
+    "med_school": "FEU",
+    "birthyear": 1953,
+    "startyear": 1981
+  },
+  {
+    "sex": "Female",
+    "name": "Olga Hoover",
+    "specialization": "Internal Medicine",
+    "price_range": "501-1000",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "St.Luke's",
+    "birthyear": 1983,
+    "startyear": 2010
+  },
+  {
+    "sex": "Male",
+    "name": "Henry Ober",
+    "specialization": "Gastroenterology",
+    "price_range": "1001-1500",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "ADMU",
+    "birthyear": 1966,
+    "startyear": 1992
+  },
+  {
+    "sex": "Male",
+    "name": "Bob Brodi",
+    "specialization": "Cardiology",
+    "price_range": "501-1000",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "ADZU",
+    "birthyear": 1979,
+    "startyear": 2006
+  },
+  {
+    "sex": "Female",
+    "name": "Slyvia Lynch",
+    "specialization": "Cardiology",
+    "price_range": "1500+",
+    "clinic_address": "Davao City",
+    "clinic_location": "Southern Philippines Medical Center",
+    "med_school": "Davao Doctor's College",
+    "birthyear": 1972,
+    "startyear": 1999
+  },
+  {
+    "sex": "Male",
+    "name": "Kevin Phang",
     "specialization": "Gastroenterology",
     "price_range": "100-500",
     "clinic_address": "Manila City",
     "clinic_location": "Manila Medical Center",
-    "med_school": "St.Luke's"
+    "med_school": "FEU",
+    "birthyear": 1960,
+    "startyear": 1986
   },
   {
     "sex": "Female",
-    "name": "Katherine Archibald",
-    "specialization": "Gastroenterology",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "Zamboanga Peninsula Medical Center",
-    "med_school": "UP"
-  },
-  {
-    "sex": "Female",
-    "name": "Remona Hanselman",
-    "specialization": "Gastroenterology",
-    "price_range": "501-1000",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "UST"
-  },
-  {
-    "sex": "Male",
-    "name": "Jonathan Dowd",
-    "specialization": "Cardiology",
-    "price_range": "100-500",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Male",
-    "name": "James Helton",
-    "specialization": "Internal Medicine",
-    "price_range": "1001-1500",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "St.Luke's"
-  },
-  {
-    "sex": "Female",
-    "name": "Carmen Helms",
+    "name": "Nancy Bell",
     "specialization": "Gastroenterology",
     "price_range": "1500+",
     "clinic_address": "Manila City",
-    "clinic_location": "Manila Medical Center",
-    "med_school": "ADZU"
-  },
-  {
-    "sex": "Male",
-    "name": "Brian Ponce",
-    "specialization": "Internal Medicine",
-    "price_range": "1500+",
-    "clinic_address": "Quezon City",
-    "clinic_location": "St. Luke's Medical Center",
-    "med_school": "St.Luke's"
+    "clinic_location": "Philippine General Hospital",
+    "med_school": "UST",
+    "birthyear": 1958,
+    "startyear": 1984
   },
   {
     "sex": "Female",
-    "name": "Frances Littlefield",
+    "name": "Audrey Mccoy",
+    "specialization": "Cardiology",
+    "price_range": "100-500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "ADMU",
+    "birthyear": 1985,
+    "startyear": 2012
+  },
+  {
+    "sex": "Female",
+    "name": "Tanisha Soule",
+    "specialization": "Cardiology",
+    "price_range": "100-500",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Doctors Hospital",
+    "med_school": "UST",
+    "birthyear": 1950,
+    "startyear": 1976
+  },
+  {
+    "sex": "Female",
+    "name": "Dawn Dark",
+    "specialization": "Cardiology",
+    "price_range": "1001-1500",
+    "clinic_address": "Quezon City",
+    "clinic_location": "St. Luke's Medical Center",
+    "med_school": "ADZU",
+    "birthyear": 1994,
+    "startyear": 2022
+  },
+  {
+    "sex": "Female",
+    "name": "Donna Harper",
+    "specialization": "Internal Medicine",
+    "price_range": "100-500",
+    "clinic_address": "Zamboanga City",
+    "clinic_location": "Zamboanga Peninsula Medical Center",
+    "med_school": "UP",
+    "birthyear": 1994,
+    "startyear": 2021
+  },
+  {
+    "sex": "Female",
+    "name": "Lottie Garton",
     "specialization": "Gastroenterology",
     "price_range": "501-1000",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "Davao Doctor's College"
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Doctors Hospital",
+    "med_school": "St.Luke's",
+    "birthyear": 1952,
+    "startyear": 1980
+  },
+  {
+    "sex": "Female",
+    "name": "Brenda Wilkins",
+    "specialization": "Internal Medicine",
+    "price_range": "501-1000",
+    "clinic_address": "Manila City",
+    "clinic_location": "Philippine General Hospital",
+    "med_school": "FEU",
+    "birthyear": 1961,
+    "startyear": 1989
   },
   {
     "sex": "Male",
-    "name": "Joseph Ramos",
+    "name": "Angel Ochs",
     "specialization": "Internal Medicine",
-    "price_range": "1001-1500",
-    "clinic_address": "Zamboanga City",
-    "clinic_location": "West Metro Medical Center",
-    "med_school": "Davao Doctor's College"
+    "price_range": "501-1000",
+    "clinic_address": "Manila City",
+    "clinic_location": "Manila Medical Center",
+    "med_school": "UST",
+    "birthyear": 1987,
+    "startyear": 2015
   }
 ]
