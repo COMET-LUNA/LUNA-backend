@@ -1,4 +1,4 @@
-const ApiService = require('../ApiMedic/apiService')
+const recommender = require('../recommender/recommender')
 
 var express = require('express')
 var router = express.Router()
@@ -12,7 +12,7 @@ router.get('/', function (req, res) {
   // ApiService.loadDiagnosis(selectedSymptoms, gender, year_of_birth).then(data => res.send(data))
 
   let selectedSymptoms = req.query.symptoms.split(',')
-  ApiService.loadDiagnosis(selectedSymptoms, req.query.gender, req.query.year_of_birth).then(data => res.send(data))
+  
 })
 
 module.exports = router
