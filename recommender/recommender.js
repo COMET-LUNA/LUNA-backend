@@ -2,7 +2,7 @@ const { loadDiagnosis } = require('../ApiMedic/apiService')
 var doctors = require('../data/doctorTest.json')
 
 
-async function recommend(data){
+async function Recommend(data){
     const  { symptoms, location, age, price, experience, sex, userSex, userAge } = data
     const { Specialisation } = await loadDiagnosis(symptoms, userSex, userAge)
 
@@ -29,4 +29,4 @@ async function recommend(data){
     return recommendations
 }
 
-module.exports = {recommend}
+module.exports = {Recommend}
