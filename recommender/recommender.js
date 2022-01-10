@@ -26,41 +26,53 @@ async function Recommend(data){
     const thisYear = today.getFullYear()
     
     recommendations = recommendations.filter((obj) => {
-        return obj.specialization == results[0].Specialisation[0].Name
+        return obj.specialization === results[0].Specialisation[0].Name
     })
-
+    console.log("After specialization: ")
+    console.log(recommendations)
     recommendations = recommendations.filter( (obj) => {
         return obj.clinic_address == location
     })
+    console.log("After location: ")
+    console.log(recommendations)
     recommendations = recommendations.filter( (obj) => {
         return obj.price_range == price
     })
+    console.log("After price: ")
+    console.log(recommendations)
     recommendations = recommendations.filter( (obj) => {
-        const docExperience = thisyear - obj.startyear
+        const docExperience = thisYear - obj.startyear
         return docExperience >= experience 
     })
+    console.log("After experience: ")
+    console.log(recommendations)
     recommendations = recommendations.filter( (obj) => {
-        const docAge = thisyear - obj.birthyear
+        const docAge = thisYear - obj.birthyear
         if (age == -1){
             return true
         } else {
-            if (age == 30){
+            if (age == 30)
+            {
                 return docAge <= 30
             }
             if (age == 45)
             {
                 return docAge > 30 && docAge <= 45
             }
-            if (age == 46){
+            if (age == 46)
+            {
                 return docAge >= 46
             }
         }
     })
+    console.log("After age: ")
+    console.log(recommendations)
     recommendations = recommendations.filter( (obj) => {
         return obj.sex == sex
     })
-
-    // console.log(recommendations)
+    console.log("After sex: ")
+    console.log(recommendations)
+    
 
     return recommendations
 

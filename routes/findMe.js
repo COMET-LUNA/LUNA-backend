@@ -6,10 +6,6 @@ var router = express.Router()
 
 router.use(express.json())
 
-// selectedSymptoms,gender,yearOfBirth
-var selectedSymptoms = [10,17]
-var gender = 'male'
-var year_of_birth = 1988
 
 router.post('/', function (req, res) {
   // ApiService.loadDiagnosis(selectedSymptoms, gender, year_of_birth).then(data => res.send(data))
