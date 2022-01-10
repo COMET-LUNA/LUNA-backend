@@ -1,6 +1,6 @@
 const { loadDiagnosis } = require('../ApiMedic/apiService')
 const Config = require('../ApiMedic/config')
-var doctors = require('../data/doctorTest.json')
+var doctors = require('../data/doctors.json')
 
 // // {
 //     "sex": "Male",
@@ -22,6 +22,7 @@ async function Recommend(data){
     console.log(results[0].Specialisation[0].Name, location, price, sex)
 
     var recommendations = doctors;
+    console.log(doctors)
     const today = new Date()
     const thisYear = today.getFullYear()
     
@@ -38,6 +39,7 @@ async function Recommend(data){
     recommendations = recommendations.filter( (obj) => {
         return obj.price_range == price
     })
+    const secondRecommendations = recommendations;
     console.log("After price: ")
     console.log(recommendations)
     recommendations = recommendations.filter( (obj) => {
@@ -73,8 +75,12 @@ async function Recommend(data){
     console.log("After sex: ")
     console.log(recommendations)
     
+    const firstRecommendations = recommendations
 
-    return recommendations
+    return {
+        firstRecommendations: recommendations, 
+        secondRecommendations: secondRecommendations
+    }
 
 }
 
