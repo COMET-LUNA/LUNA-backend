@@ -2,6 +2,10 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 3030
 
+var cors = require('cors')
+
+app.use(cors())
+
 var findMeRouter = require('./routes/findMe')
 
 app.use("/findMe", findMeRouter);

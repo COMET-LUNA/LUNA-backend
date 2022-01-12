@@ -19,35 +19,37 @@ async function Recommend(data){
     const results = await loadDiagnosis(symptoms, userSex, userYearBirth)
 
     // console.log(results[0])
-    console.log(results[0].Specialisation[0].Name, location, price, sex)
+    // console.log(results[0].Specialisation[0].Name, location, price, sex)
 
     var recommendations = doctors;
-    console.log(doctors)
+    // console.log(doctors)
     const today = new Date()
     const thisYear = today.getFullYear()
     
     recommendations = recommendations.filter((obj) => {
         return obj.specialization === results[0].Specialisation[0].Name
     })
-    console.log("After specialization: ")
-    console.log(recommendations)
+
+    specRecom = recommendations
+    // console.log("After specialization: ")
+    // console.log(recommendations)
     recommendations = recommendations.filter( (obj) => {
         return obj.clinic_address == location
     })
-    console.log("After location: ")
-    console.log(recommendations)
+    // console.log("After location: ")
+    // console.log(recommendations)
     recommendations = recommendations.filter( (obj) => {
         return obj.price_range == price
     })
     const secondRecommendations = recommendations;
-    console.log("After price: ")
-    console.log(recommendations)
+    // console.log("After price: ")
+    // console.log(recommendations)
     recommendations = recommendations.filter( (obj) => {
         const docExperience = thisYear - obj.startyear
         return docExperience >= experience 
     })
-    console.log("After experience: ")
-    console.log(recommendations)
+    // console.log("After experience: ")
+    // console.log(recommendations)
     recommendations = recommendations.filter( (obj) => {
         const docAge = thisYear - obj.birthyear
         if (age == -1){
@@ -67,8 +69,8 @@ async function Recommend(data){
             }
         }
     })
-    console.log("After age: ")
-    console.log(recommendations)
+    // console.log("After age: ")
+    // console.log(recommendations)
     recommendations = recommendations.filter( (obj) => {
         return obj.sex == sex
     })
@@ -79,7 +81,9 @@ async function Recommend(data){
 
     return {
         firstRecommendations: recommendations, 
-        secondRecommendations: secondRecommendations
+        secondRecommendations: secondRecommendations,
+        specRecommendations: specRecom,
+        diagnosis: results
     }
 }
 

@@ -10,6 +10,8 @@ router.use(express.json())
 router.post('/', function (req, res) {
   // ApiService.loadDiagnosis(selectedSymptoms, gender, year_of_birth).then(data => res.send(data))
 
+  // res.header("Access-Control-Allow-Origin", "*");
+
   console.log(req.body)
   let data = {
     symptoms: req.body.querySymptoms.split(','),
