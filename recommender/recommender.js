@@ -81,7 +81,6 @@ async function Recommend(data){
         firstRecommendations: recommendations, 
         secondRecommendations: secondRecommendations
     }
-
 }
 
 module.exports = {Recommend}
