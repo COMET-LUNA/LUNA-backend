@@ -23,7 +23,7 @@
     "cors": "^2.8.5",
     "crypto-js": "^4.1.1",
     "express": "^4.17.2",
-    "firebase": "^9.2.0"
+    "firebase": "^9.6.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

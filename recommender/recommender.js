@@ -1,6 +1,11 @@
 const { loadDiagnosis } = require('../ApiMedic/apiService')
 const Config = require('../ApiMedic/config')
-var doctors = require('../data/doctors.json')
+
+const {getFirestore, collection, getDocs, addDoc} = require('firebase/firestore')
+
+const firestore = getFirestore();
+
+const doctorDb = collection(firestore, 'doctors')
 
 // // {
 //     "sex": "Male",
@@ -15,6 +20,14 @@ var doctors = require('../data/doctors.json')
 //   },
 
 async function Recommend(data){
+    var doctors = await getDocs(doctorDb).then(snapshot => {
+      let doctors = []
+      snapshot.docs.forEach(doc => {
+        doctors.push({...doc.data()})
+      })
+      return doctors
+    })
+    // console.log(doctors)
     const  { symptoms, location, age, price, experience, sex, userSex, userYearBirth } = data
     const results = await loadDiagnosis(symptoms, userSex, userYearBirth)
 

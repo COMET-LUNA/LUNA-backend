@@ -7,7 +7,7 @@ var router = express.Router()
 router.use(express.json())
 
 
-router.post('/', function (req, res) {
+router.post('/findMe', function (req, res) {
   // ApiService.loadDiagnosis(selectedSymptoms, gender, year_of_birth).then(data => res.send(data))
 
   // res.header("Access-Control-Allow-Origin", "*");
