@@ -1,0 +1,44 @@
+[
+  {
+    "firstName": "Jolo",
+    "lastName": "Cansana",
+    "birthDate": "08/25/2000",
+    "email": "jcansana@gmail.com",
+    "password": "password",
+    "medInfo" : {
+      "bloodType": "A",
+      "heightCm": "100",
+      "weightKg": "100",
+      "diet": "none",
+      "illnesses": "Scholiosis"
+    }
+  },
+  {
+    "firstName": "Sean",
+    "lastName": "Pe",
+    "birthDate": "01/12/2000",
+    "email": "seanpe@gmail.com",
+    "password": "password",
+    "medInfo" : {
+      "bloodType": "A",
+      "heightCm": "100",
+      "weightKg": "100",
+      "diet": "none",
+      "illnesses": "none"
+    }
+  },
+  {
+    "firstName": "Gabriel",
+    "lastName": "Jamalul",
+    "birthDate": "06/20/2000",
+    "email": "rasheedjamalul@gmail.com",
+    "password": "password",
+    "medInfo" : {
+      "bloodType": "B",
+      "heightCm": "100",
+      "weightKg": "100",
+      "diet": "none",
+      "illnesses": "none"
+    }
+  }
+]
