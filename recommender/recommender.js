@@ -1,7 +1,7 @@
 const { loadDiagnosis } = require('../ApiMedic/apiService')
 const Config = require('../ApiMedic/config')
 
-const {getFirestore, collection, getDoc} = require('firebase/firestore')
+const {getFirestore, collection, getDocs} = require('firebase/firestore')
 
 const firestore = getFirestore();
 
