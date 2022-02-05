@@ -27,6 +27,9 @@ app.use("/", findMeRouter);
 var authRouter = require('./routes/auth')
 app.use("/", authRouter)
 
+var historyRouter = require('./routes/history')
+app.use("/", historyRouter)
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
