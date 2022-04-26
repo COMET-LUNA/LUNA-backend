@@ -7,9 +7,10 @@ const firebaseConfig = {
   projectId: "luna-doctor-finder",
   storageBucket: "luna-doctor-finder.appspot.com",
   messagingSenderId: "642725602228",
-  appId: "1:642725602228:web:a7847cb3670f4e700248e1",
-  measurementId: "G-ZXDTFTXV85"
+  appId: "1:642725602228:web:87a40fdb2a4d70340248e1",
+  measurementId: "G-01SJDX2TFB"
 };
+
 
 // Initialize Firebase
 initializeApp(firebaseConfig)
