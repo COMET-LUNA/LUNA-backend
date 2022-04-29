@@ -1,4 +1,4 @@
-const {getFirestore, collection, query, where, getDocs} = require('firebase/firestore')
+const {getFirestore, collection, query, where, getDocs, addDoc} = require('firebase/firestore')
 
 var express = require('express')
 var router = express.Router()
@@ -23,6 +23,18 @@ router.post('/history', function (req, res) {
     res.send({historyData})
   })
   
+})
+
+router.post('/addHistory', function (req, res) {
+
+  const historyObj = {...req.body}
+  historyObj.date = Date.now()
+
+  console.log(historyObj)
+
+  addDoc(findMeHistoryDb, historyObj)
+
+  res.status(200).send('RECEIVED')
 })
 
 module.exports = router
