@@ -66,7 +66,7 @@ async function Recommend(data){
     // console.log(recommendations)
     recommendations = recommendations.filter( (obj) => {
         const docAge = thisYear - obj.birthyear
-        if (age == -1){
+        if (age == 0){
             return true
         } else {
             if (age == 30)
