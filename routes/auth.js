@@ -50,7 +50,7 @@ router.post('/register', async function (req, res) {
   createUserWithEmailAndPassword(auth, userData.personal.emailAddress, userData.security.password)
   .then((userCredential) => {
     // Signed in 
-    const user = userCredential.user;
+    // const user = userCredential.user;
 
     // Add User Data to Database
     let {personal, medical} = userData     
@@ -64,13 +64,15 @@ router.post('/register', async function (req, res) {
       console.log(e)
     }
 
-    userData = {personal, medical}
+    const userReturn = {personal, medical}
+    console.log(userReturn)
 
-    res.status(200).send({userData})
+    res.status(200).send({userReturn})
   })
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
+    console.log(error)
     res.status(500).send({errorCode, errorMessage})
   });
 })
