@@ -50,6 +50,13 @@ async function Recommend(data){
     })
 
     specRecom = recommendations
+
+    // console.log("Keeping top specialization...")
+    recommendations = recommendations.filter((doctor) => {
+        return doctor.specialization == specializations[0]
+    })
+    // console.log("top specialization")
+
     // console.log("After specialization: ")
     // console.log(recommendations)
     recommendations = recommendations.filter( (doctor) => {
