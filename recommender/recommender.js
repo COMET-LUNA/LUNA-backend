@@ -71,15 +71,15 @@ async function Recommend(data){
         } else {
             if (age == 30)
             {
-                return docAge <= 30
+                return docAge >= 30 && docAge < 40
             }
-            if (age == 45)
+            if (age == 40)
             {
-                return docAge > 30 && docAge <= 45
+                return docAge >= 30 && docAge < 50
             }
-            if (age == 46)
+            if (age == 50)
             {
-                return docAge >= 46
+                return docAge >= 50
             }
         }
     })
