@@ -1,4 +1,4 @@
-const { loadDiagnosis } = require('../ApiMedic/apiService')
+const { loadDiagnosis, loadSpecialisations } = require('../ApiMedic/apiService')
 const Config = require('../ApiMedic/config')
 
 const {getFirestore, collection, getDocs} = require('firebase/firestore')
@@ -30,7 +30,8 @@ async function Recommend(data){
     })
     // console.log(doctors)
     const  { symptoms, location, age, price, experience, sex, userSex, userYearBirth } = data
-    const results = await loadDiagnosis(symptoms, userSex, userYearBirth)
+    const results = await loadSpecialisations(symptoms, userSex, userYearBirth)
+    const diagnosis = await loadDiagnosis(symptoms, userSex, userYearBirth)
 
     // console.log(results[0])
     // console.log(results[0].Specialisation[0].Name, location, price, sex)
@@ -40,56 +41,58 @@ async function Recommend(data){
     const today = new Date()
     const thisYear = today.getFullYear()
     
-    recommendations = recommendations.filter((obj) => {
-        return obj.specialization === results[0].Specialisation[0].Name
+    var specializations = results
+    specializations = specializations.map((spec) => {
+        return spec.Name
+    })
+    recommendations = recommendations.filter((doctor) => {
+        return specializations.includes(doctor.specialization)
     })
 
     specRecom = recommendations
     // console.log("After specialization: ")
     // console.log(recommendations)
-    recommendations = recommendations.filter( (obj) => {
-        return obj.clinic_address == location
+    recommendations = recommendations.filter( (doctor) => {
+        return doctor.clinic_address == location
     })
     // console.log("After location: ")
     // console.log(recommendations)
-    recommendations = recommendations.filter( (obj) => {
-        return obj.price_range == price
+    recommendations = recommendations.filter( (doctor) => {
+        return doctor.price_range == price
     })
     const secondRecommendations = recommendations;
     // console.log("After price: ")
     // console.log(recommendations)
-    recommendations = recommendations.filter( (obj) => {
-        const docExperience = thisYear - obj.startyear
+    recommendations = recommendations.filter( (doctor) => {
+        const docExperience = thisYear - doctor.startyear
         return docExperience >= experience 
     })
     // console.log("After experience: ")
     // console.log(recommendations)
-    recommendations = recommendations.filter( (obj) => {
-        const docAge = thisYear - obj.birthyear
-        if (age == 0){
-            return true
-        } else {
-            if (age == 30)
-            {
-                return docAge >= 30 && docAge < 40
+    recommendations = recommendations.filter( (doctor) => {
+            const docAge = thisYear - doctor.birthyear
+            if (age == 0){
+                return true
             }
-            if (age == 40)
-            {
-                return docAge >= 30 && docAge < 50
-            }
-            if (age == 50)
-            {
-                return docAge >= 50
-            }
+                if (age == 30)
+                {
+                    return docAge >= 30 && docAge < 40
+                }
+                if (age == 40)
+                {
+                    return docAge >= 40 && docAge < 50
+                }
+                if (age == 50)
+                {
+                    return docAge >= 50
+                }
         }
-    })
+    )
     // console.log("After age: ")
     // console.log(recommendations)
-    recommendations = recommendations.filter( (obj) => {
-        return obj.sex == sex
+    recommendations = recommendations.filter( (doctor) => {
+        return doctor.sex == sex
     })
-    console.log("After sex: ")
-    console.log(recommendations)
     
     const firstRecommendations = recommendations
 
@@ -97,7 +100,8 @@ async function Recommend(data){
         firstRecommendations: recommendations, 
         secondRecommendations: secondRecommendations,
         specRecommendations: specRecom,
-        diagnosis: results
+        specialization: results,
+        diagnosis: diagnosis
     }
 }
 
