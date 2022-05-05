@@ -100,7 +100,7 @@ async function Recommend(data){
         firstRecommendations: recommendations, 
         secondRecommendations: secondRecommendations,
         specRecommendations: specRecom,
-        specialization: results,
+        specialization: results.slice(0,3),
         diagnosis: diagnosis
     }
 }
