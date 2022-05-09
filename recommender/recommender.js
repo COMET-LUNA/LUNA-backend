@@ -45,6 +45,8 @@ async function Recommend(data){
     specializations = specializations.map((spec) => {
         return spec.Name
     })
+
+
     // Getting doctors that are of the top 3 specializations
     recommendations = recommendations.filter((doctor) => {
         return specializations.map((spec) => {
@@ -54,6 +56,7 @@ async function Recommend(data){
 
     specRecom = recommendations
 
+
     // Filter by top specialization
     recommendations = recommendations.filter((doctor) => {
         return doctor.specialization.toLowerCase() == specializations[0].toLowerCase()
@@ -61,12 +64,15 @@ async function Recommend(data){
     console.log("After specialization: ")
     console.log(recommendations)
 
+
     // Filter by location
     recommendations = recommendations.filter( (doctor) => {
         return doctor.clinic_address == location
     })
     // console.log("After location: ")
     // console.log(recommendations)
+
+
     // Filtered by specialization and location at this point
     const secondRecommendations = recommendations;
 
@@ -77,12 +83,14 @@ async function Recommend(data){
     // console.log("After price: ")
     // console.log(recommendations)
 
+
     recommendations = recommendations.filter( (doctor) => {
         const docExperience = thisYear - doctor.startyear
         return docExperience >= experience 
     })
     // console.log("After experience: ")
     // console.log(recommendations)
+
 
     recommendations = recommendations.filter( (doctor) => {
             const docAge = thisYear - doctor.birthyear
@@ -105,13 +113,19 @@ async function Recommend(data){
     )
     // console.log("After age: ")
     // console.log(recommendations)
+
+
     recommendations = recommendations.filter( (doctor) => {
         return doctor.sex == sex
     })
+
+
     recommendations = recommendations.filter ( (doctor) => {
         return doctor.teleconsult == teleconsult
     })
-    // Filtered by preference and location at this point
+
+
+    // Filtered by all preferences and best spec at this point
     const firstRecommendations = recommendations
 
 
