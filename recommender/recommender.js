@@ -32,6 +32,8 @@ async function Recommend(data){
     const  { symptoms, location, age, price, experience, sex, userSex, userYearBirth } = data
     const results = await loadSpecialisations(symptoms, userSex, userYearBirth)
     const diagnosis = await loadDiagnosis(symptoms, userSex, userYearBirth)
+    console.log(results)
+    console.log(diagnosis)
 
     // console.log(results[0])
     // console.log(results[0].Specialisation[0].Name, location, price, sex)
@@ -41,7 +43,7 @@ async function Recommend(data){
     const today = new Date()
     const thisYear = today.getFullYear()
     
-    var specializations = results
+    var specializations = results.slice(0,3)
     specializations = specializations.map((spec) => {
         return spec.Name
     })
@@ -103,11 +105,12 @@ async function Recommend(data){
     
     const firstRecommendations = recommendations
 
+
     return {
         firstRecommendations: recommendations, 
         secondRecommendations: secondRecommendations,
         specRecommendations: specRecom,
-        specialization: results.slice(0,3),
+        specialization: specializations,
         diagnosis: diagnosis
     }
 }

@@ -23,7 +23,14 @@ async function loadDiagnosis(selectedSymptoms,gender,yearOfBirth) {
     return axios
       .get(url)
       .then(res => {
-        return res.data
+        var { data } = res
+    
+        return data.map(diagnosis => {
+          diagnosis.Specialisation = diagnosis.Specialisation.filter((spec) => {
+            return spec.Name !== 'General practice'
+          })
+          return diagnosis
+        })
       })
       .catch(e => {
         // console.log(e)
@@ -53,7 +60,9 @@ async function loadSpecialisations(selectedSymptoms,gender,yearOfBirth) {
     return axios
       .get(url)
       .then(res => {
-        return res.data
+        return res.data.filter(specialization => {
+          return specialization.Name !== 'General practice'
+        })
       })
       .catch(e => {
         // console.log(e)
