@@ -29,11 +29,9 @@ async function Recommend(data){
       return doctors
     })
     // console.log(doctors)
-    const  { symptoms, location, age, price, experience, sex, userSex, userYearBirth } = data
+    const  { symptoms, location, age, price, experience, sex, userSex, userYearBirth, teleconsult } = data
     const results = await loadSpecialisations(symptoms, userSex, userYearBirth)
     const diagnosis = await loadDiagnosis(symptoms, userSex, userYearBirth)
-    console.log(results)
-    console.log(diagnosis)
 
     // console.log(results[0])
     // console.log(results[0].Specialisation[0].Name, location, price, sex)
@@ -47,37 +45,43 @@ async function Recommend(data){
     specializations = specializations.map((spec) => {
         return spec.Name
     })
+    // Getting doctors that are of the top 3 specializations
     recommendations = recommendations.filter((doctor) => {
         return specializations.includes(doctor.specialization)
     })
 
     specRecom = recommendations
 
-    // console.log("Keeping top specialization...")
+    // Filter by top specialization
     recommendations = recommendations.filter((doctor) => {
-        return doctor.specialization == specializations[0]
+        return doctor.specialization.toLowercase() == specializations[0].toLowercase()
     })
-    // console.log("top specialization")
-
     // console.log("After specialization: ")
     // console.log(recommendations)
+
+    // Filter by location
     recommendations = recommendations.filter( (doctor) => {
         return doctor.clinic_address == location
     })
     // console.log("After location: ")
     // console.log(recommendations)
+    // Filtered by specialization and location at this point
+    const secondRecommendations = recommendations;
+
+    // Filter by price
     recommendations = recommendations.filter( (doctor) => {
         return doctor.price_range == price
     })
-    const secondRecommendations = recommendations;
     // console.log("After price: ")
     // console.log(recommendations)
+
     recommendations = recommendations.filter( (doctor) => {
         const docExperience = thisYear - doctor.startyear
         return docExperience >= experience 
     })
     // console.log("After experience: ")
     // console.log(recommendations)
+
     recommendations = recommendations.filter( (doctor) => {
             const docAge = thisYear - doctor.birthyear
             if (age == 0){
@@ -102,7 +106,10 @@ async function Recommend(data){
     recommendations = recommendations.filter( (doctor) => {
         return doctor.sex == sex
     })
-    
+    recommendations = recommendations.filter ( (doctor) => {
+        return doctor.teleconsult == teleconsult
+    })
+    // Filtered by preference and location at this point
     const firstRecommendations = recommendations
 
 

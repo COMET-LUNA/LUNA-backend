@@ -17,7 +17,7 @@ async function loadDiagnosis(selectedSymptoms,gender,yearOfBirth) {
   url += url.indexOf("?") > 0 ? "&"+extraArgs : "?"+extraArgs;
 
   // console.log(config.getFormat())
-  console.log(url)
+  // console.log(url)
 
   if(config.getFormat() == "json")
     return axios
@@ -27,7 +27,7 @@ async function loadDiagnosis(selectedSymptoms,gender,yearOfBirth) {
     
         return data.map(diagnosis => {
           diagnosis.Specialisation = diagnosis.Specialisation.filter((spec) => {
-            return spec.Name !== 'General practice'
+            return spec.Name.toLowercase() !== 'general practice'
           })
           return diagnosis
         })
@@ -54,14 +54,14 @@ async function loadSpecialisations(selectedSymptoms,gender,yearOfBirth) {
   url += url.indexOf("?") > 0 ? "&"+extraArgs : "?"+extraArgs;
 
   // console.log(config.getFormat())
-  console.log(url)
+  // console.log(url)
 
   if(config.getFormat() == "json")
     return axios
       .get(url)
       .then(res => {
         return res.data.filter(specialization => {
-          return specialization.Name !== 'General practice'
+          return specialization.Name.toLowercase() !== 'general practice'
         })
       })
       .catch(e => {
