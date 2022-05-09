@@ -27,7 +27,7 @@ async function loadDiagnosis(selectedSymptoms,gender,yearOfBirth) {
     
         return data.map(diagnosis => {
           diagnosis.Specialisation = diagnosis.Specialisation.filter((spec) => {
-            return spec.Name.toLowercase() !== 'general practice'
+            return spec.Name !== 'General practice'
           })
           return diagnosis
         })
@@ -61,7 +61,7 @@ async function loadSpecialisations(selectedSymptoms,gender,yearOfBirth) {
       .get(url)
       .then(res => {
         return res.data.filter(specialization => {
-          return specialization.Name.toLowercase() !== 'general practice'
+          return specialization.Name !== 'General practice'
         })
       })
       .catch(e => {
