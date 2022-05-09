@@ -47,17 +47,19 @@ async function Recommend(data){
     })
     // Getting doctors that are of the top 3 specializations
     recommendations = recommendations.filter((doctor) => {
-        return specializations.includes(doctor.specialization)
+        return specializations.map((spec) => {
+                return spec.toLowerCase()
+            }).includes(doctor.specialization.toLowerCase())
     })
 
     specRecom = recommendations
 
     // Filter by top specialization
     recommendations = recommendations.filter((doctor) => {
-        return doctor.specialization.toLowercase() == specializations[0].toLowercase()
+        return doctor.specialization.toLowerCase() == specializations[0].toLowerCase()
     })
-    // console.log("After specialization: ")
-    // console.log(recommendations)
+    console.log("After specialization: ")
+    console.log(recommendations)
 
     // Filter by location
     recommendations = recommendations.filter( (doctor) => {
