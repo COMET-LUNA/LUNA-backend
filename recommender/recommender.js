@@ -125,7 +125,8 @@ async function Recommend(data){
 
     console.log(teleconsult)
     recommendations = recommendations.filter ( (doctor) => {
-        return doctor.teleconsult == teleconsult
+      if (teleconsult === 'none') return true
+      return doctor.teleconsult == teleconsult
     })
     console.log("After teleconsult: ")
     console.log(recommendations)
