@@ -20,6 +20,7 @@ const doctorDb = collection(firestore, 'doctors')
 //   },
 
 async function Recommend(data){
+    // Setup
     var doctors = await getDocs(doctorDb).then(snapshot => {
       let doctors = []
       console.log('getting doctors...')
@@ -47,6 +48,7 @@ async function Recommend(data){
     })
 
 
+
     // Getting doctors that are of the top 3 specializations
     recommendations = recommendations.filter((doctor) => {
         return specializations.map((spec) => {
@@ -69,8 +71,8 @@ async function Recommend(data){
     recommendations = recommendations.filter( (doctor) => {
         return doctor.clinic_address == location
     })
-    // console.log("After location: ")
-    // console.log(recommendations)
+    console.log("After location: ")
+    console.log(recommendations)
 
 
     // Filtered by specialization and location at this point
@@ -80,16 +82,16 @@ async function Recommend(data){
     recommendations = recommendations.filter( (doctor) => {
         return doctor.price_range == price
     })
-    // console.log("After price: ")
-    // console.log(recommendations)
+    console.log("After price: ")
+    console.log(recommendations)
 
 
     recommendations = recommendations.filter( (doctor) => {
         const docExperience = thisYear - doctor.startyear
         return docExperience >= experience 
     })
-    // console.log("After experience: ")
-    // console.log(recommendations)
+    console.log("After experience: ")
+    console.log(recommendations)
 
 
     recommendations = recommendations.filter( (doctor) => {
@@ -111,18 +113,22 @@ async function Recommend(data){
                 }
         }
     )
-    // console.log("After age: ")
-    // console.log(recommendations)
+    console.log("After age: ")
+    console.log(recommendations)
 
 
     recommendations = recommendations.filter( (doctor) => {
         return doctor.sex == sex
     })
+    console.log("After sex: ")
+    console.log(recommendations)
 
-
+    console.log(teleconsult)
     recommendations = recommendations.filter ( (doctor) => {
         return doctor.teleconsult == teleconsult
     })
+    console.log("After teleconsult: ")
+    console.log(recommendations)
 
 
     // Filtered by all preferences and best spec at this point

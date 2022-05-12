@@ -22,6 +22,7 @@ router.post('/findMe', function (req, res) {
     experience: req.body.experience,
     price: req.body.price,
     sex: req.body.sex,
+    teleconsult: req.body.teleconsult,
   }
 
   console.log(data)
