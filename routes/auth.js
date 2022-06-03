@@ -1,6 +1,6 @@
 // const users = require('../data/users.json')
 const { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword} = require("firebase/auth")
-const {getFirestore, collection, query, where, getDocs, addDoc} = require('firebase/firestore')
+const {doc, getFirestore, collection, query, where, getDocs, addDoc, updateDoc} = require('firebase/firestore')
 
 var express = require('express')
 var router = express.Router()
@@ -75,6 +75,34 @@ router.post('/register', async function (req, res) {
     console.log(error)
     res.status(500).send({errorCode, errorMessage})
   });
+})
+
+router.post('/update', async function(req,res) {
+  const userData = req.body.userData
+  console.log(req.body)
+
+  let userId = null
+  await getDocs(query(usersDb, where("personal.emailAddress", "==", userData.personal.emailAddress))).then(data => {
+    data.forEach(doc => {
+      userId = doc.id
+    })
+  })
+  
+  console.log(userId)
+  const firestore = getFirestore();
+  const usersRef = doc(firestore, 'users', userId)
+
+  try { 
+    await updateDoc(usersRef, userData) 
+    const successMessage = "Account has been successfully updated."
+    res.status(200).send({successMessage, userData})
+  }
+  catch (error) {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    console.log(error)
+    res.status(500).send({errorCode, errorMessage})
+  }
 })
 
 module.exports = router
