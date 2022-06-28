@@ -13,4 +13,4 @@ This will install the necessary npm packages to run the app.
 
 To test the server for API calls and the like, run `npm run dev` from a terminal operating within the repository. 
 
-To deploy the server to a production build, simply use any hosting provider of your choice and configure it to run `npm start` in order to start the Node.js backend on a production server.
+To deploy the server to a production build, simply use any hosting provider of your choice and configure it to run `npm run start` in order to start the Node.js backend on a production server.
